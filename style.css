@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+.heder_content {
+    width: 100%;
+    height: 136px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+    align-content: center;
+}
+.block_1 {
+    width: 100%;
+    height: 68px;
+    display: grid;
+    grid-template-columns: 9% 20% 55% 7% 8%;
+    grid-template-rows: 49px;
+    align-content: center;
+}
+.heder_tex1 {
+     width: 100%;
+     height: 50px;
+     color: black;
+     font-size: 1.2em;
+     font-weight: 700;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     align-content: center;
+    text-align: center;
+     display: grid;
+     position: relative;
+   
+}
+.heder_tex1::after{
+    content: "\00B4";
+    top: 0px;
+    left: 39px;
+    width: 4px;
+    height: 4px;
+    font-size: 1.6em;
+    /* background: black; */
+    position: absolute;
+}
+
+.heder_vector63_content {
+    width: 100%;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-content: center;
+    align-items: center;
+}
+.heder_img_content_vector{
+    width: 32px;
+    height: 32px;
+    display: grid;
+    align-content: center;
+    padding-left: 3px;
+    border: 2px solid silver;
+    border-radius: 40px;
+
+}
+.heder_vector63_img{
+    width: 18px;
+    height: 18px;
+}
+.heder_vector_input {
+    width: 150px;
+    height: 22px;
+}
+.heder_search_engine_field {
+    width: 592px;
+    height: 48px;
+    display: grid;
+    grid-template-columns: 6% 87% 6%;
+    grid-template-rows: 100%;
+    align-content: center;
+    align-items: center;
+    /* border-radius: 40px; */
+    border: 2px solid #ABC8EA;
+    border-radius: 100px;
+    background: #F1F1F1;
+}
+.heder_union {
+    width: 15px;
+    height: 15px;
+    margin: auto;
+}
+.heder_search_engine_field_input {
+    width: 100%;
+    height: 100%;
+    border: none; 
+    background: #F1F1F1;
+}
+.heder_close_img{
+    width: 14px;
+    height: 14px;
+    margin: auto;
+}
+.heder_the_heart_symbol_block {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 56% 26% 10%;
+    align-content: center;
+}
+.heder_the_heart_symbol {
+ width: 18px;
+ height: 18px;
+}
+.heder_the_heart_tex {
+}
+.heder_btn {
+    width: 90px;
+    height: 54px;
+    border-radius: 21px;
+    border: none;
+}
+.block_2 {
+    width: 100%;
+    height: 68px;
+}
+.block2_content{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 95% 5%;
+  align-content: end;
+}
+.blcok2_heder_scrol{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 6% 8% 8% 7% 11% 8% 8% 16% 18%;
+    grid-column-gap: 13px;
+    justify-content: baseline;
+    align-content: center;  
+}
+.block2_btn_heder{
+    height: 24px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #000;
+    background: #Fff;
+    border: none;
+}
+.heder_block2_btn1{
+    width: 54px;
+    height: 24px;
+    background: #F1F1F1;
+    border-radius: 34px;
+    margin: auto;
+}
+.heder_img_arrow{
+    width: 6px;
+    height: 12px;
+    margin: auto 0px;
+    box-sizing: 1px 2px 3px 10px solid red;
+    box-shadow: -9px 2px 7px 7px rgb(255, 255, 255);
+}
